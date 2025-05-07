@@ -133,7 +133,7 @@ This project is licensed under the MIT License.
   
 ### Solution Walkthrough
 
-[Watch Demo Video on Google Drive](https://drive.google.com/file/d/10JUwjJ-e0Eykt40dGtl5x0Qcng8-G6Nn/view?usp=drive_link)
+[Watch Demo Video](https://drive.google.com/file/d/1pPHavRU5SNQFDOBa7QLxPOHbEGNsdDmS/view?usp=sharing)
 
 ### Demo Screenshots
 
