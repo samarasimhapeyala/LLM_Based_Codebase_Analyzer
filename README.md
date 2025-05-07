@@ -98,7 +98,7 @@ If you prefer not to use Docker, you can run the application directly on your ma
     python app.py
     ```
 
-4. Then, navigate to `http://localhost:5000` or 'http://127.0.0.1:8000/' in your browser.
+4. Then, navigate to `http://localhost:5000` or `http://127.0.0.1:8000/` (configure) in your browser.
 
 ## How It Works
 
