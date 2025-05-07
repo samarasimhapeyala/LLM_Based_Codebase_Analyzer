@@ -130,6 +130,10 @@ This project is licensed under the MIT License.
 - Langchain for code chunking and integration with LLMs
 - MongoDB and Redis for data storage and caching 
 - Flask for the web framework
+  
+### Solution Walkthrough
+
+[Watch Demo Video on Google Drive](https://drive.google.com/file/d/10JUwjJ-e0Eykt40dGtl5x0Qcng8-G6Nn/view?usp=drive_link)
 
 ### Demo Screenshots
 
