@@ -118,6 +118,7 @@ If you prefer not to use Docker, you can run the application directly on your ma
 
 - **Support for More LLMs**: Support for other open-source models such as GPT-4 or models from Ollama could be added for different use cases.
 - **More Complex Code Analysis**: Implement more detailed static code analysis techniques (e.g., control flow, data flow analysis) for better understanding.
+- **Improved Performance**: Enhance prompt template and using prompt engineering techniques, improve the overall performance after multiple tests and improve the output analysis quality.
 
 ## License
 
