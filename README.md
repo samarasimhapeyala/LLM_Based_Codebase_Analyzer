@@ -131,3 +131,8 @@ This project is licensed under the MIT License.
 - MongoDB and Redis for data storage and caching 
 - Flask for the web framework
 
+### Demo Screenshots
+
+![App Screenshot](./static/ss1.png)
+![App Screenshot](./static/ss2.png)
+![App Screenshot](./static/ss3.png)
