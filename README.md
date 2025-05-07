@@ -60,4 +60,73 @@ To install the required Python packages, run the following command:
 pip install -r requirements.txt
 ```
 
+### 3. Environment Configuration
+
+Create a `.env` file in the root directory and add your API keys (e.g., OpenAI API key):
+
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
+### 4. Docker Setup
+
+The project is containerized using Docker. To set up the application with Docker, run:
+
+```
+docker-compose up --build
+```
+
+This will start the Flask web application, MongoDB, and Redis (make sure all are setup already) in Docker containers.
+
+### 5. Access the Web Interface
+
+Once the containers are up and running, open your browser and go to:
+```
+http://localhost:5000
+http://127.0.0.1:8000/
+```
+Here, you can give the local codebase path or provide a GitHub repository URL. The application will process the code and provide an analysis in JSON format.
+
+## 6. Run the Application Without Docker
+
+If you prefer not to use Docker, you can run the application directly on your machine:
+
+1. Install MongoDB and Redis.
+2. Set the environment variables for MongoDB and Redis connections.
+3. Run the Flask application with:
+
+    ```bash
+    python app.py
+    ```
+
+4. Then, navigate to `http://localhost:5000` or 'http://127.0.0.1:8000/' in your browser.
+
+## How It Works
+
+- **Codebase Upload**: The user provides a codebase either as a path to a local directory or a GitHub repository URL (preferrably core files path).
+- **File Processing**: The code files are loaded into MongoDB, and each file is split into smaller chunks using Langchain.
+- **LLM Analysis**: The code chunks are sent to OpenAI's GPT-3.5 Turbo (or another LLM) for analysis. The LLM extracts insights like project purpose, method descriptions, and code complexity etc.
+- **Structured Output**: The analysis results are stored in MongoDB and displayed in the web interface in JSON format, with a download button for easy access to download as final_summary.json.
+
+## Limitations
+
+- **Token Limit**: The use of OpenAI GPT-3.5 Turbo is efficient but has a token limit. For larger files, need to explore 4.o models etc.
+- **API Cost**: OpenAI's GPT-3.5 API can incur costs depending on usage.
+- **Speed**: The application uses GPT-3.5 for faster inference, but alternative models (e.g., GPT-4 or open-source models via Ollama) may be used for more complex tasks but could be slower.
+- **Accuracy**: LLMs results maynot be accurate all the times but efficient as of now.
+
+## Future Enhancements
+
+- **Support for More LLMs**: Support for other open-source models such as GPT-4 or models from Ollama could be added for different use cases.
+- **More Complex Code Analysis**: Implement more detailed static code analysis techniques (e.g., control flow, data flow analysis) for better understanding.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- OpenAI for GPT-3.5 Turbo
+- Langchain for code chunking and integration with LLMs
+- MongoDB and Redis for data storage and caching 
+- Flask for the web framework
 
