@@ -1,0 +1,773 @@
+2025-05-07 11:56:28,846 - INFO - Starting Flask app...
+2025-05-07 11:56:28,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 11:56:28,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 11:56:28,850 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 11:56:28,850 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 11:56:28,852 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 11:56:28,852 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 11:56:29,533 - INFO - Starting Flask app...
+2025-05-07 11:56:29,536 - WARNING -  * Debugger is active!
+2025-05-07 11:56:29,536 - WARNING -  * Debugger is active!
+2025-05-07 11:56:29,536 - INFO -  * Debugger PIN: 143-798-370
+2025-05-07 11:56:29,536 - INFO -  * Debugger PIN: 143-798-370
+2025-05-07 11:56:32,012 - INFO - Accessed index page
+2025-05-07 11:56:32,016 - INFO - 127.0.0.1 - - [07/May/2025 11:56:32] "GET / HTTP/1.1" 200 -
+2025-05-07 11:56:32,016 - INFO - 127.0.0.1 - - [07/May/2025 11:56:32] "GET / HTTP/1.1" 200 -
+2025-05-07 11:56:32,034 - INFO - 127.0.0.1 - - [07/May/2025 11:56:32] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 11:56:32,034 - INFO - 127.0.0.1 - - [07/May/2025 11:56:32] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 12:02:50,027 - INFO - Starting Flask app...
+2025-05-07 12:02:50,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 12:02:50,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 12:02:50,030 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 12:02:50,030 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 12:02:50,032 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 12:02:50,032 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 12:02:50,645 - INFO - Starting Flask app...
+2025-05-07 12:02:50,648 - WARNING -  * Debugger is active!
+2025-05-07 12:02:50,648 - WARNING -  * Debugger is active!
+2025-05-07 12:02:50,648 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 12:02:50,648 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 12:02:52,750 - INFO - Accessed index page
+2025-05-07 12:02:52,752 - INFO - 127.0.0.1 - - [07/May/2025 12:02:52] "GET / HTTP/1.1" 200 -
+2025-05-07 12:02:52,752 - INFO - 127.0.0.1 - - [07/May/2025 12:02:52] "GET / HTTP/1.1" 200 -
+2025-05-07 12:02:52,778 - INFO - 127.0.0.1 - - [07/May/2025 12:02:52] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 12:02:52,778 - INFO - 127.0.0.1 - - [07/May/2025 12:02:52] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 12:03:01,062 - INFO - Fetching structure for: sakila_project
+2025-05-07 12:03:01,063 - INFO - Getting folder structure for: sakila_project
+2025-05-07 12:03:01,064 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 12:03:01,066 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 12:03:01,066 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 12:03:01,067 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 12:03:01,067 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 12:03:01,068 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 12:03:01,068 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 12:03:01,069 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 12:03:01,069 - INFO - 127.0.0.1 - - [07/May/2025 12:03:01] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 12:03:01,069 - INFO - 127.0.0.1 - - [07/May/2025 12:03:01] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 12:03:03,814 - INFO - Analyzing: sakila_project
+2025-05-07 12:03:06,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 12:03:10,154 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 12:03:10,160 - INFO - Analysis complete. Result at: sakila_project/sakila_summary.json
+2025-05-07 12:03:10,162 - INFO - 127.0.0.1 - - [07/May/2025 12:03:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 12:03:10,162 - INFO - 127.0.0.1 - - [07/May/2025 12:03:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 12:03:10,170 - INFO - Refreshing database data
+2025-05-07 12:03:10,174 - INFO - 127.0.0.1 - - [07/May/2025 12:03:10] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 12:03:10,174 - INFO - 127.0.0.1 - - [07/May/2025 12:03:10] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 12:03:34,241 - WARNING - Clearing MongoDB and Redis
+2025-05-07 12:03:34,245 - INFO - 127.0.0.1 - - [07/May/2025 12:03:34] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 12:03:34,245 - INFO - 127.0.0.1 - - [07/May/2025 12:03:34] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 12:03:35,702 - INFO - Refreshing database data
+2025-05-07 12:03:35,706 - INFO - 127.0.0.1 - - [07/May/2025 12:03:35] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 12:03:35,706 - INFO - 127.0.0.1 - - [07/May/2025 12:03:35] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 12:03:37,971 - INFO - Accessed index page
+2025-05-07 12:03:37,972 - INFO - 127.0.0.1 - - [07/May/2025 12:03:37] "GET / HTTP/1.1" 200 -
+2025-05-07 12:03:37,972 - INFO - 127.0.0.1 - - [07/May/2025 12:03:37] "GET / HTTP/1.1" 200 -
+2025-05-07 12:03:38,010 - INFO - 127.0.0.1 - - [07/May/2025 12:03:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 12:03:38,010 - INFO - 127.0.0.1 - - [07/May/2025 12:03:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 12:27:44,032 - INFO - Starting Flask app...
+2025-05-07 12:27:44,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 12:27:44,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 12:27:44,035 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 12:27:44,035 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 12:27:44,037 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 12:27:44,037 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 12:27:44,654 - INFO - Starting Flask app...
+2025-05-07 12:27:44,656 - WARNING -  * Debugger is active!
+2025-05-07 12:27:44,656 - WARNING -  * Debugger is active!
+2025-05-07 12:27:44,657 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 12:27:44,657 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 12:27:47,365 - INFO - Accessed index page
+2025-05-07 12:27:47,367 - INFO - 127.0.0.1 - - [07/May/2025 12:27:47] "GET / HTTP/1.1" 200 -
+2025-05-07 12:27:47,367 - INFO - 127.0.0.1 - - [07/May/2025 12:27:47] "GET / HTTP/1.1" 200 -
+2025-05-07 12:27:47,388 - INFO - 127.0.0.1 - - [07/May/2025 12:27:47] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 12:27:47,388 - INFO - 127.0.0.1 - - [07/May/2025 12:27:47] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-07 12:27:56,949 - INFO - Fetching structure for: sakila_project
+2025-05-07 12:27:56,951 - INFO - Getting folder structure for: sakila_project
+2025-05-07 12:27:56,952 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 12:27:56,953 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 12:27:56,953 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 12:27:56,954 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 12:27:56,955 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 12:27:56,955 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 12:27:56,955 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 12:27:56,956 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 12:27:56,956 - INFO - 127.0.0.1 - - [07/May/2025 12:27:56] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 12:27:56,956 - INFO - 127.0.0.1 - - [07/May/2025 12:27:56] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 12:27:57,993 - INFO - Analyzing: sakila_project
+2025-05-07 12:28:00,478 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 12:28:02,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 12:28:02,936 - INFO - Analysis complete. Result at: sakila_project/sakila_summary.json
+2025-05-07 12:28:02,938 - INFO - 127.0.0.1 - - [07/May/2025 12:28:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 12:28:02,938 - INFO - 127.0.0.1 - - [07/May/2025 12:28:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 12:28:02,945 - INFO - Refreshing database data
+2025-05-07 12:28:02,949 - INFO - 127.0.0.1 - - [07/May/2025 12:28:02] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 12:28:02,949 - INFO - 127.0.0.1 - - [07/May/2025 12:28:02] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:22,875 - INFO - Starting Flask app...
+2025-05-07 14:08:22,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:08:22,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:08:22,878 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:08:22,878 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:08:22,881 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:08:22,881 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:08:23,531 - INFO - Starting Flask app...
+2025-05-07 14:08:23,533 - WARNING -  * Debugger is active!
+2025-05-07 14:08:23,533 - WARNING -  * Debugger is active!
+2025-05-07 14:08:23,534 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:08:23,534 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:08:28,060 - INFO - Accessed index page
+2025-05-07 14:08:28,064 - INFO - 127.0.0.1 - - [07/May/2025 14:08:28] "GET / HTTP/1.1" 200 -
+2025-05-07 14:08:28,064 - INFO - 127.0.0.1 - - [07/May/2025 14:08:28] "GET / HTTP/1.1" 200 -
+2025-05-07 14:08:28,082 - INFO - 127.0.0.1 - - [07/May/2025 14:08:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:08:28,082 - INFO - 127.0.0.1 - - [07/May/2025 14:08:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:08:39,246 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:08:39,246 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:08:39,247 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:08:39,248 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:08:39,249 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:08:39,249 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:08:39,250 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:08:39,250 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:08:39,251 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:08:39,251 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:08:39,252 - INFO - 127.0.0.1 - - [07/May/2025 14:08:39] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:08:39,252 - INFO - 127.0.0.1 - - [07/May/2025 14:08:39] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:08:44,645 - INFO - Analyzing: sakila_project
+2025-05-07 14:08:44,648 - INFO - Returning cached result
+2025-05-07 14:08:44,649 - INFO - 127.0.0.1 - - [07/May/2025 14:08:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:08:44,649 - INFO - 127.0.0.1 - - [07/May/2025 14:08:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:08:44,656 - INFO - Refreshing database data
+2025-05-07 14:08:44,663 - INFO - 127.0.0.1 - - [07/May/2025 14:08:44] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:44,663 - INFO - 127.0.0.1 - - [07/May/2025 14:08:44] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:48,834 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:08:48,838 - INFO - 127.0.0.1 - - [07/May/2025 14:08:48] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:08:48,838 - INFO - 127.0.0.1 - - [07/May/2025 14:08:48] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:08:49,774 - INFO - Refreshing database data
+2025-05-07 14:08:49,777 - INFO - 127.0.0.1 - - [07/May/2025 14:08:49] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:49,777 - INFO - 127.0.0.1 - - [07/May/2025 14:08:49] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:50,839 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:08:50,840 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:08:50,841 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:08:50,842 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:08:50,843 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:08:50,844 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:08:50,845 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:08:50,845 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:08:50,845 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:08:50,845 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:08:50,847 - INFO - 127.0.0.1 - - [07/May/2025 14:08:50] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:08:50,847 - INFO - 127.0.0.1 - - [07/May/2025 14:08:50] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:08:52,245 - INFO - Analyzing: sakila_project
+2025-05-07 14:08:56,004 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:08:59,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:08:59,087 - INFO - Analysis complete. Result at: sakila_project/sakila_summary.json
+2025-05-07 14:08:59,089 - INFO - 127.0.0.1 - - [07/May/2025 14:08:59] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:08:59,089 - INFO - 127.0.0.1 - - [07/May/2025 14:08:59] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:08:59,098 - INFO - Refreshing database data
+2025-05-07 14:08:59,104 - INFO - 127.0.0.1 - - [07/May/2025 14:08:59] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:08:59,104 - INFO - 127.0.0.1 - - [07/May/2025 14:08:59] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:12:07,363 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:07,363 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:07,363 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:07,363 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:07,382 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:07,382 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:08,416 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:08,416 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:09,190 - INFO - Starting Flask app...
+2025-05-07 14:12:09,192 - WARNING -  * Debugger is active!
+2025-05-07 14:12:09,192 - WARNING -  * Debugger is active!
+2025-05-07 14:12:09,193 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:12:09,193 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:12:19,693 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,693 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,694 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,694 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,695 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,695 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,696 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,696 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer (copy).py', reloading
+2025-05-07 14:12:19,697 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,697 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,697 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,697 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,698 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,698 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,698 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:19,698 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main (copy).py', reloading
+2025-05-07 14:12:20,809 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:20,809 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:21,510 - INFO - Starting Flask app...
+2025-05-07 14:12:21,513 - WARNING -  * Debugger is active!
+2025-05-07 14:12:21,513 - WARNING -  * Debugger is active!
+2025-05-07 14:12:21,513 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:12:21,513 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:12:45,417 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:45,417 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:45,418 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:45,418 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:45,435 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:45,435 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:12:46,120 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:46,120 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:12:46,895 - INFO - Starting Flask app...
+2025-05-07 14:12:46,899 - WARNING -  * Debugger is active!
+2025-05-07 14:12:46,899 - WARNING -  * Debugger is active!
+2025-05-07 14:12:46,900 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:12:46,900 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:13:09,870 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:09,870 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:09,871 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:09,871 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:09,879 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:09,879 - INFO -  * Detected change in '/home/samara/Desktop/assign2/main.py', reloading
+2025-05-07 14:13:10,994 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:13:10,994 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:13:11,710 - INFO - Starting Flask app...
+2025-05-07 14:13:11,713 - WARNING -  * Debugger is active!
+2025-05-07 14:13:11,713 - WARNING -  * Debugger is active!
+2025-05-07 14:13:11,713 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:13:11,713 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:13:15,780 - INFO - Starting Flask app...
+2025-05-07 14:13:15,783 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:13:15,783 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:13:15,783 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:13:15,783 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:13:15,784 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:13:15,784 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:13:16,417 - INFO - Starting Flask app...
+2025-05-07 14:13:16,420 - WARNING -  * Debugger is active!
+2025-05-07 14:13:16,420 - WARNING -  * Debugger is active!
+2025-05-07 14:13:16,420 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:13:16,420 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:13:19,774 - INFO - Accessed index page
+2025-05-07 14:13:19,780 - INFO - 127.0.0.1 - - [07/May/2025 14:13:19] "GET / HTTP/1.1" 200 -
+2025-05-07 14:13:19,780 - INFO - 127.0.0.1 - - [07/May/2025 14:13:19] "GET / HTTP/1.1" 200 -
+2025-05-07 14:13:19,822 - INFO - 127.0.0.1 - - [07/May/2025 14:13:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:13:19,822 - INFO - 127.0.0.1 - - [07/May/2025 14:13:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:13:20,568 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:13:20,575 - INFO - 127.0.0.1 - - [07/May/2025 14:13:20] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:13:20,575 - INFO - 127.0.0.1 - - [07/May/2025 14:13:20] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:13:21,803 - INFO - Refreshing database data
+2025-05-07 14:13:21,806 - INFO - 127.0.0.1 - - [07/May/2025 14:13:21] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:13:21,806 - INFO - 127.0.0.1 - - [07/May/2025 14:13:21] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:13:30,542 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:13:30,544 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:13:30,545 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:13:30,545 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:13:30,546 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:13:30,547 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:13:30,548 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:13:30,548 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:13:30,548 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:13:30,549 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:13:30,550 - INFO - 127.0.0.1 - - [07/May/2025 14:13:30] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:13:30,550 - INFO - 127.0.0.1 - - [07/May/2025 14:13:30] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:13:31,552 - INFO - Analyzing: sakila_project
+2025-05-07 14:13:34,125 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:13:36,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:13:36,947 - INFO - Analysis complete. Result at: sakila_project/sakila_summary.json
+2025-05-07 14:13:36,948 - INFO - 127.0.0.1 - - [07/May/2025 14:13:36] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:13:36,948 - INFO - 127.0.0.1 - - [07/May/2025 14:13:36] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:13:36,956 - INFO - Refreshing database data
+2025-05-07 14:13:36,961 - INFO - 127.0.0.1 - - [07/May/2025 14:13:36] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:13:36,961 - INFO - 127.0.0.1 - - [07/May/2025 14:13:36] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:14,365 - INFO - Starting Flask app...
+2025-05-07 14:18:14,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:18:14,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:18:14,368 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:18:14,368 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:18:14,370 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:18:14,370 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:18:15,014 - INFO - Starting Flask app...
+2025-05-07 14:18:15,017 - WARNING -  * Debugger is active!
+2025-05-07 14:18:15,017 - WARNING -  * Debugger is active!
+2025-05-07 14:18:15,017 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:18:15,017 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:18:29,520 - INFO - Refreshing database data
+2025-05-07 14:18:29,530 - INFO - 127.0.0.1 - - [07/May/2025 14:18:29] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:29,530 - INFO - 127.0.0.1 - - [07/May/2025 14:18:29] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:29,961 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:18:29,966 - INFO - 127.0.0.1 - - [07/May/2025 14:18:29] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:18:29,966 - INFO - 127.0.0.1 - - [07/May/2025 14:18:29] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:18:30,937 - INFO - Refreshing database data
+2025-05-07 14:18:30,941 - INFO - 127.0.0.1 - - [07/May/2025 14:18:30] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:30,941 - INFO - 127.0.0.1 - - [07/May/2025 14:18:30] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:31,826 - INFO - Accessed index page
+2025-05-07 14:18:31,831 - INFO - 127.0.0.1 - - [07/May/2025 14:18:31] "GET / HTTP/1.1" 200 -
+2025-05-07 14:18:31,831 - INFO - 127.0.0.1 - - [07/May/2025 14:18:31] "GET / HTTP/1.1" 200 -
+2025-05-07 14:18:31,855 - INFO - 127.0.0.1 - - [07/May/2025 14:18:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:18:31,855 - INFO - 127.0.0.1 - - [07/May/2025 14:18:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:18:33,900 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:18:33,900 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:18:33,900 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:18:33,902 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:18:33,903 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:18:33,903 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:18:33,903 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:18:33,903 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:18:33,904 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:18:33,904 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:18:33,905 - INFO - 127.0.0.1 - - [07/May/2025 14:18:33] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:18:33,905 - INFO - 127.0.0.1 - - [07/May/2025 14:18:33] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:18:35,809 - INFO - Analyzing: sakila_project
+2025-05-07 14:18:38,978 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:18:42,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:18:42,259 - INFO - Analysis complete. Result at: sakila_project/final_summary.json
+2025-05-07 14:18:42,260 - INFO - 127.0.0.1 - - [07/May/2025 14:18:42] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:18:42,260 - INFO - 127.0.0.1 - - [07/May/2025 14:18:42] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:18:42,267 - INFO - Refreshing database data
+2025-05-07 14:18:42,273 - INFO - 127.0.0.1 - - [07/May/2025 14:18:42] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:18:42,273 - INFO - 127.0.0.1 - - [07/May/2025 14:18:42] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:20:27,568 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:27,568 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:27,569 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:27,569 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:27,588 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:27,588 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:20:28,740 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:20:28,740 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:20:29,483 - INFO - Starting Flask app...
+2025-05-07 14:20:29,485 - WARNING -  * Debugger is active!
+2025-05-07 14:20:29,485 - WARNING -  * Debugger is active!
+2025-05-07 14:20:29,486 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:20:29,486 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:20:34,773 - INFO - Starting Flask app...
+2025-05-07 14:20:34,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:20:34,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:20:34,776 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:20:34,776 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:20:34,777 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:20:34,777 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:20:35,434 - INFO - Starting Flask app...
+2025-05-07 14:20:35,436 - WARNING -  * Debugger is active!
+2025-05-07 14:20:35,436 - WARNING -  * Debugger is active!
+2025-05-07 14:20:35,436 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:20:35,436 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:20:38,145 - INFO - Accessed index page
+2025-05-07 14:20:38,149 - INFO - 127.0.0.1 - - [07/May/2025 14:20:38] "GET / HTTP/1.1" 200 -
+2025-05-07 14:20:38,149 - INFO - 127.0.0.1 - - [07/May/2025 14:20:38] "GET / HTTP/1.1" 200 -
+2025-05-07 14:20:38,169 - INFO - 127.0.0.1 - - [07/May/2025 14:20:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:20:38,169 - INFO - 127.0.0.1 - - [07/May/2025 14:20:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:20:46,020 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:20:46,020 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:20:46,021 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:20:46,021 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:20:46,021 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:20:46,022 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:20:46,022 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:20:46,022 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:20:46,022 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:20:46,022 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:20:46,022 - INFO - 127.0.0.1 - - [07/May/2025 14:20:46] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:20:46,022 - INFO - 127.0.0.1 - - [07/May/2025 14:20:46] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:20:48,204 - INFO - Analyzing: sakila_project
+2025-05-07 14:20:48,205 - INFO - Returning cached result
+2025-05-07 14:20:48,206 - INFO - 127.0.0.1 - - [07/May/2025 14:20:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:20:48,206 - INFO - 127.0.0.1 - - [07/May/2025 14:20:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:20:48,211 - INFO - Refreshing database data
+2025-05-07 14:20:48,218 - INFO - 127.0.0.1 - - [07/May/2025 14:20:48] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:20:48,218 - INFO - 127.0.0.1 - - [07/May/2025 14:20:48] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:20:51,348 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:20:51,351 - INFO - 127.0.0.1 - - [07/May/2025 14:20:51] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:20:51,351 - INFO - 127.0.0.1 - - [07/May/2025 14:20:51] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:20:52,313 - INFO - Refreshing database data
+2025-05-07 14:20:52,316 - INFO - 127.0.0.1 - - [07/May/2025 14:20:52] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:20:52,316 - INFO - 127.0.0.1 - - [07/May/2025 14:20:52] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:20:52,969 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:20:52,969 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:20:52,970 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:20:52,971 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:20:52,971 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:20:52,972 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:20:52,973 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:20:52,974 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:20:52,974 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:20:52,975 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:20:52,976 - INFO - 127.0.0.1 - - [07/May/2025 14:20:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:20:52,976 - INFO - 127.0.0.1 - - [07/May/2025 14:20:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:20:53,738 - INFO - Analyzing: sakila_project
+2025-05-07 14:20:57,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:21:00,352 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:21:00,359 - INFO - Analysis complete. Result at: sakila_project/final_summary.json
+2025-05-07 14:21:00,361 - INFO - 127.0.0.1 - - [07/May/2025 14:21:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:21:00,361 - INFO - 127.0.0.1 - - [07/May/2025 14:21:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:21:00,369 - INFO - Refreshing database data
+2025-05-07 14:21:00,372 - INFO - 127.0.0.1 - - [07/May/2025 14:21:00] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:21:00,372 - INFO - 127.0.0.1 - - [07/May/2025 14:21:00] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:23:00,661 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:00,661 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:00,662 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:00,662 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:00,681 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:00,681 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:23:05,174 - INFO - Starting Flask app...
+2025-05-07 14:23:05,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:23:05,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:23:05,177 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:23:05,177 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:23:05,179 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:23:05,179 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:23:05,827 - INFO - Starting Flask app...
+2025-05-07 14:23:05,829 - WARNING -  * Debugger is active!
+2025-05-07 14:23:05,829 - WARNING -  * Debugger is active!
+2025-05-07 14:23:05,830 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:23:05,830 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:23:13,201 - INFO - Accessed index page
+2025-05-07 14:23:13,205 - INFO - 127.0.0.1 - - [07/May/2025 14:23:13] "GET / HTTP/1.1" 200 -
+2025-05-07 14:23:13,205 - INFO - 127.0.0.1 - - [07/May/2025 14:23:13] "GET / HTTP/1.1" 200 -
+2025-05-07 14:23:13,244 - INFO - 127.0.0.1 - - [07/May/2025 14:23:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:23:13,244 - INFO - 127.0.0.1 - - [07/May/2025 14:23:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:23:16,105 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:23:16,110 - INFO - 127.0.0.1 - - [07/May/2025 14:23:16] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:23:16,110 - INFO - 127.0.0.1 - - [07/May/2025 14:23:16] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:23:17,422 - INFO - Refreshing database data
+2025-05-07 14:23:17,425 - INFO - 127.0.0.1 - - [07/May/2025 14:23:17] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:23:17,425 - INFO - 127.0.0.1 - - [07/May/2025 14:23:17] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:23:19,137 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:23:19,137 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:23:19,139 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:23:19,140 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:23:19,141 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:23:19,141 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:23:19,141 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:23:19,142 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:23:19,143 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:23:19,143 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:23:19,143 - INFO - 127.0.0.1 - - [07/May/2025 14:23:19] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:23:19,143 - INFO - 127.0.0.1 - - [07/May/2025 14:23:19] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:23:20,724 - INFO - Analyzing: sakila_project
+2025-05-07 14:23:24,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:23:27,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:23:27,171 - INFO - Analysis complete. Result at: sakila_project/final_summary.json
+2025-05-07 14:23:27,173 - INFO - 127.0.0.1 - - [07/May/2025 14:23:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:23:27,173 - INFO - 127.0.0.1 - - [07/May/2025 14:23:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:23:27,179 - INFO - Refreshing database data
+2025-05-07 14:23:27,182 - INFO - 127.0.0.1 - - [07/May/2025 14:23:27] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:23:27,182 - INFO - 127.0.0.1 - - [07/May/2025 14:23:27] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:25:27,410 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:27,410 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:27,410 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:27,410 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:27,429 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:27,429 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:28,590 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:28,590 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:29,329 - INFO - Starting Flask app...
+2025-05-07 14:25:29,332 - WARNING -  * Debugger is active!
+2025-05-07 14:25:29,332 - WARNING -  * Debugger is active!
+2025-05-07 14:25:29,332 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:29,332 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:37,240 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,240 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,241 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,241 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,258 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,258 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:25:37,910 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:37,910 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:38,599 - INFO - Starting Flask app...
+2025-05-07 14:25:38,602 - WARNING -  * Debugger is active!
+2025-05-07 14:25:38,602 - WARNING -  * Debugger is active!
+2025-05-07 14:25:38,602 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:38,602 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:44,500 - INFO - Starting Flask app...
+2025-05-07 14:25:44,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:25:44,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:25:44,502 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:25:44,502 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:25:44,504 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:44,504 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:25:45,243 - INFO - Starting Flask app...
+2025-05-07 14:25:45,246 - WARNING -  * Debugger is active!
+2025-05-07 14:25:45,246 - WARNING -  * Debugger is active!
+2025-05-07 14:25:45,246 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:45,246 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:25:49,957 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:25:49,965 - INFO - 127.0.0.1 - - [07/May/2025 14:25:49] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:25:49,965 - INFO - 127.0.0.1 - - [07/May/2025 14:25:49] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:25:51,064 - INFO - Refreshing database data
+2025-05-07 14:25:51,068 - INFO - 127.0.0.1 - - [07/May/2025 14:25:51] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:25:51,068 - INFO - 127.0.0.1 - - [07/May/2025 14:25:51] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:25:55,435 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:25:55,436 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:25:55,439 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:25:55,440 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:25:55,441 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:25:55,441 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:25:55,442 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:25:55,442 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:25:55,442 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:25:55,443 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:25:55,444 - INFO - 127.0.0.1 - - [07/May/2025 14:25:55] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:25:55,444 - INFO - 127.0.0.1 - - [07/May/2025 14:25:55] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:25:57,860 - INFO - Analyzing: sakila_project
+2025-05-07 14:26:00,657 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:26:03,456 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:26:03,463 - INFO - Analysis complete. Result at: sakila_project/final_summary.json
+2025-05-07 14:26:03,464 - INFO - 127.0.0.1 - - [07/May/2025 14:26:03] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:26:03,464 - INFO - 127.0.0.1 - - [07/May/2025 14:26:03] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:26:03,471 - INFO - Refreshing database data
+2025-05-07 14:26:03,474 - INFO - 127.0.0.1 - - [07/May/2025 14:26:03] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:26:03,474 - INFO - 127.0.0.1 - - [07/May/2025 14:26:03] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:26:24,499 - INFO - Analyzing: sakila_project
+2025-05-07 14:26:24,500 - INFO - Returning cached result
+2025-05-07 14:26:24,501 - INFO - 127.0.0.1 - - [07/May/2025 14:26:24] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:26:24,501 - INFO - 127.0.0.1 - - [07/May/2025 14:26:24] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:26:24,509 - INFO - Refreshing database data
+2025-05-07 14:26:24,513 - INFO - 127.0.0.1 - - [07/May/2025 14:26:24] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:26:24,513 - INFO - 127.0.0.1 - - [07/May/2025 14:26:24] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:26:52,599 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:52,599 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:52,600 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:52,600 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:52,616 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:52,616 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:53,403 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:26:53,403 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:26:54,096 - INFO - Starting Flask app...
+2025-05-07 14:26:54,099 - WARNING -  * Debugger is active!
+2025-05-07 14:26:54,099 - WARNING -  * Debugger is active!
+2025-05-07 14:26:54,099 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:26:54,099 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:26:58,589 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:58,589 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:58,590 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:58,590 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:58,605 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:58,605 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:26:59,681 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:26:59,681 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:00,387 - INFO - Starting Flask app...
+2025-05-07 14:27:00,390 - WARNING -  * Debugger is active!
+2025-05-07 14:27:00,390 - WARNING -  * Debugger is active!
+2025-05-07 14:27:00,390 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:00,390 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:04,978 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:04,978 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:04,979 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:04,979 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:04,985 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:04,985 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:05,974 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:05,974 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:06,701 - INFO - Starting Flask app...
+2025-05-07 14:27:06,704 - WARNING -  * Debugger is active!
+2025-05-07 14:27:06,704 - WARNING -  * Debugger is active!
+2025-05-07 14:27:06,704 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:06,704 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:07,206 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:07,206 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:07,207 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:07,207 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:07,222 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:07,222 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:08,286 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:08,286 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:08,985 - INFO - Starting Flask app...
+2025-05-07 14:27:08,987 - WARNING -  * Debugger is active!
+2025-05-07 14:27:08,987 - WARNING -  * Debugger is active!
+2025-05-07 14:27:08,987 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:08,987 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:30,833 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:30,833 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:30,849 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:30,849 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:27:31,598 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:31,598 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:32,326 - INFO - Starting Flask app...
+2025-05-07 14:27:32,329 - WARNING -  * Debugger is active!
+2025-05-07 14:27:32,329 - WARNING -  * Debugger is active!
+2025-05-07 14:27:32,329 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:32,329 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:41,193 - INFO - Starting Flask app...
+2025-05-07 14:27:41,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:27:41,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.132:8000
+2025-05-07 14:27:41,196 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:27:41,196 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 14:27:41,198 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:41,198 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:27:41,918 - INFO - Starting Flask app...
+2025-05-07 14:27:41,921 - WARNING -  * Debugger is active!
+2025-05-07 14:27:41,921 - WARNING -  * Debugger is active!
+2025-05-07 14:27:41,921 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:41,921 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:27:47,210 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:27:47,218 - INFO - 127.0.0.1 - - [07/May/2025 14:27:47] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:27:47,218 - INFO - 127.0.0.1 - - [07/May/2025 14:27:47] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:27:49,616 - INFO - Refreshing database data
+2025-05-07 14:27:49,619 - INFO - 127.0.0.1 - - [07/May/2025 14:27:49] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:27:49,619 - INFO - 127.0.0.1 - - [07/May/2025 14:27:49] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:27:50,691 - INFO - Accessed index page
+2025-05-07 14:27:50,697 - INFO - 127.0.0.1 - - [07/May/2025 14:27:50] "GET / HTTP/1.1" 200 -
+2025-05-07 14:27:50,697 - INFO - 127.0.0.1 - - [07/May/2025 14:27:50] "GET / HTTP/1.1" 200 -
+2025-05-07 14:27:50,740 - INFO - 127.0.0.1 - - [07/May/2025 14:27:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:27:50,740 - INFO - 127.0.0.1 - - [07/May/2025 14:27:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:27:52,830 - INFO - Fetching structure for: sakila_project
+2025-05-07 14:27:52,831 - INFO - Getting folder structure for: sakila_project
+2025-05-07 14:27:52,833 - INFO - Getting folder structure for: sakila_project/src
+2025-05-07 14:27:52,835 - INFO - Getting folder structure for: sakila_project/src/main
+2025-05-07 14:27:52,835 - INFO - Getting folder structure for: sakila_project/src/main/java
+2025-05-07 14:27:52,836 - INFO - Getting folder structure for: sakila_project/src/main/java/com
+2025-05-07 14:27:52,836 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta
+2025-05-07 14:27:52,836 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72
+2025-05-07 14:27:52,837 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject
+2025-05-07 14:27:52,837 - INFO - Getting folder structure for: sakila_project/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:27:52,838 - INFO - 127.0.0.1 - - [07/May/2025 14:27:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:27:52,838 - INFO - 127.0.0.1 - - [07/May/2025 14:27:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:27:54,326 - INFO - Analyzing: sakila_project
+2025-05-07 14:27:56,844 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:27:58,994 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:27:58,997 - INFO - Analysis complete. Result at: sakila_project/final_summary.json
+2025-05-07 14:27:58,997 - INFO - 127.0.0.1 - - [07/May/2025 14:27:58] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:27:58,997 - INFO - 127.0.0.1 - - [07/May/2025 14:27:58] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:27:59,002 - INFO - Refreshing database data
+2025-05-07 14:27:59,004 - INFO - 127.0.0.1 - - [07/May/2025 14:27:59] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:27:59,004 - INFO - 127.0.0.1 - - [07/May/2025 14:27:59] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:29:37,371 - WARNING - Clearing MongoDB and Redis
+2025-05-07 14:29:37,375 - INFO - 127.0.0.1 - - [07/May/2025 14:29:37] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:29:37,375 - INFO - 127.0.0.1 - - [07/May/2025 14:29:37] "POST /clear_db HTTP/1.1" 200 -
+2025-05-07 14:29:38,502 - INFO - Refreshing database data
+2025-05-07 14:29:38,506 - INFO - 127.0.0.1 - - [07/May/2025 14:29:38] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:29:38,506 - INFO - 127.0.0.1 - - [07/May/2025 14:29:38] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:29:39,408 - INFO - Accessed index page
+2025-05-07 14:29:39,411 - INFO - 127.0.0.1 - - [07/May/2025 14:29:39] "GET / HTTP/1.1" 200 -
+2025-05-07 14:29:39,411 - INFO - 127.0.0.1 - - [07/May/2025 14:29:39] "GET / HTTP/1.1" 200 -
+2025-05-07 14:29:39,444 - INFO - 127.0.0.1 - - [07/May/2025 14:29:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:29:39,444 - INFO - 127.0.0.1 - - [07/May/2025 14:29:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:29:51,389 - INFO - Fetching structure for: https://github.com/janjakovacevic/SakilaProject/tree/master/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:29:51,390 - INFO - Cloning repo from: https://github.com/janjakovacevic/SakilaProject/tree/master/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:29:52,797 - INFO - Repo cloned to: /home/samara/Desktop/assign2/temp/SakilaProject
+2025-05-07 14:29:52,799 - INFO - Getting folder structure for: /home/samara/Desktop/assign2/temp/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:29:52,799 - INFO - 127.0.0.1 - - [07/May/2025 14:29:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:29:52,799 - INFO - 127.0.0.1 - - [07/May/2025 14:29:52] "POST /fetch HTTP/1.1" 200 -
+2025-05-07 14:30:01,181 - INFO - Analyzing: https://github.com/janjakovacevic/SakilaProject/tree/master/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:30:01,182 - INFO - Cloning repo from: https://github.com/janjakovacevic/SakilaProject/tree/master/src/main/java/com/sparta/engineering72/sakilaproject/controller
+2025-05-07 14:30:04,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:07,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:11,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:13,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:17,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:20,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:23,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:25,911 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:30,553 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:33,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:36,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:39,257 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 14:30:39,259 - INFO - Analysis complete. Result at: /home/samara/Desktop/assign2/temp/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/final_summary.json
+2025-05-07 14:30:39,261 - INFO - 127.0.0.1 - - [07/May/2025 14:30:39] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:30:39,261 - INFO - 127.0.0.1 - - [07/May/2025 14:30:39] "POST /analyze HTTP/1.1" 200 -
+2025-05-07 14:30:39,264 - INFO - Refreshing database data
+2025-05-07 14:30:39,269 - INFO - 127.0.0.1 - - [07/May/2025 14:30:39] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:30:39,269 - INFO - 127.0.0.1 - - [07/May/2025 14:30:39] "GET /refresh_db HTTP/1.1" 200 -
+2025-05-07 14:34:46,319 - INFO - Download requested for: /home/samara/Desktop/assign2/temp/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/final_summary.json
+2025-05-07 14:34:46,320 - INFO - 127.0.0.1 - - [07/May/2025 14:34:46] "GET /download_json?path=/home/samara/Desktop/assign2/temp/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/final_summary.json HTTP/1.1" 200 -
+2025-05-07 14:34:46,320 - INFO - 127.0.0.1 - - [07/May/2025 14:34:46] "GET /download_json?path=/home/samara/Desktop/assign2/temp/SakilaProject/src/main/java/com/sparta/engineering72/sakilaproject/controller/final_summary.json HTTP/1.1" 200 -
+2025-05-07 14:37:22,746 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:22,746 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:22,746 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:22,746 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:22,763 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:22,763 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:23,539 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:37:23,539 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:37:24,218 - INFO - Starting Flask app...
+2025-05-07 14:37:24,221 - WARNING -  * Debugger is active!
+2025-05-07 14:37:24,221 - WARNING -  * Debugger is active!
+2025-05-07 14:37:24,221 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:37:24,221 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:37:32,221 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,221 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,222 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,222 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,237 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,237 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:37:32,801 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:37:32,801 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:37:33,481 - INFO - Starting Flask app...
+2025-05-07 14:37:33,483 - WARNING -  * Debugger is active!
+2025-05-07 14:37:33,483 - WARNING -  * Debugger is active!
+2025-05-07 14:37:33,484 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:37:33,484 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:39:07,389 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:07,389 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:07,405 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:07,405 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:08,702 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:39:08,702 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:39:09,399 - INFO - Starting Flask app...
+2025-05-07 14:39:09,401 - WARNING -  * Debugger is active!
+2025-05-07 14:39:09,401 - WARNING -  * Debugger is active!
+2025-05-07 14:39:09,402 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:39:09,402 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:39:28,039 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:28,039 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:28,046 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:28,046 - INFO -  * Detected change in '/home/samara/Desktop/assign2/llm_analyzer.py', reloading
+2025-05-07 14:39:29,001 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:39:29,001 - INFO -  * Restarting with watchdog (inotify)
+2025-05-07 14:39:29,733 - INFO - Starting Flask app...
+2025-05-07 14:39:29,736 - WARNING -  * Debugger is active!
+2025-05-07 14:39:29,736 - WARNING -  * Debugger is active!
+2025-05-07 14:39:29,736 - INFO -  * Debugger PIN: 869-525-929
+2025-05-07 14:39:29,736 - INFO -  * Debugger PIN: 869-525-929

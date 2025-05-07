@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Codebase Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Database Collections</h2>
+            <button onclick="refreshDB()">Refresh DB</button>
+            <button onclick="clearDB()">Clear DB</button>
+            <div id="db-tables"></div>
+        </div>
+        <div id="resizer"></div>
+        <div class="main">
+            <h1>LLM based Codebase Analyzer</h1>
+            <input type="text" id="repoPath" placeholder="Enter codebase path or github repo link..." />
+            <button onclick="fetchStructure()">Fetch Structure</button>
+            <button onclick="analyzeCode()">Analyze Code</button>
+            <div id="fileStructure"></div>
+            <div id="status"></div>
+            <pre id="jsonOutput"></pre>
+            <a id="downloadBtn" style="display:none;">Download JSON</a>
+        </div>
+    </div>
+
+    <script>
+        function fetchStructure() {
+            const path = document.getElementById("repoPath").value;
+            fetch("/fetch", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: "repo_path=" + encodeURIComponent(path)
+            })
+            .then(res => res.json())
+            .then(data => {
+                const structureDiv = document.getElementById("fileStructure");
+                structureDiv.innerHTML = renderTree(data.structure);
+            });
+        }
+    
+        function renderTree(node) {
+        if (!node) return "";
+        let html = `<ul><li>${node.name}`;
+        if (node.children && node.children.length > 0) {
+            node.children.forEach(child => {
+                html += renderTree(child);
+            });
+        }
+        html += `</li></ul>`;
+        return html;
+    }
+
+
+        function analyzeCode() {
+                const path = document.getElementById("repoPath").value;
+                document.getElementById("status").innerText = "Processing...";
+                fetch("/analyze", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ repo_path: path })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    let statusMessage = "";
+                    if (data.status === "cached") {
+                        statusMessage = "✅ Codebase already analyzed. Fetched from cache.";
+                    } else if (data.status === "complete") {
+                        statusMessage = "✅ Analysis complete.";
+                    } else {
+                        statusMessage = "⚠️ Unknown response status.";
+                    }
+
+                    document.getElementById("status").innerText = statusMessage;
+                    document.getElementById("jsonOutput").textContent = JSON.stringify(data.json_data, null, 2);
+                    document.getElementById("downloadBtn").href = "/download_json?path=" + encodeURIComponent(data.json_path);
+                    document.getElementById("downloadBtn").style.display = "inline";
+                    document.getElementById("downloadBtn").innerText = "Download JSON";
+                    refreshDB();
+                });
+            }
+
+
+        function refreshDB() {
+            fetch("/refresh_db")
+            .then(res => res.json())
+            .then(data => {
+                displayTables(data);
+            });
+        }
+
+        function clearDB() {
+            fetch("/clear_db", {
+                method: "POST"
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === "cleared") {
+                    alert("Database cleared successfully.");
+                    refreshDB();
+                }
+            });
+        }
+
+        function displayTables(data) {
+            const db = document.getElementById("db-tables");
+            db.innerHTML = "";
+            const order = ["codebase_files", "chunks", "analysis_results"];
+            order.forEach(key => {
+                if (data[key] && data[key].length > 0) {
+                    const table = document.createElement("table");
+                    table.innerHTML = `<caption>${key}</caption><tr>${Object.keys(data[key][0]).map(h => `<th>${h}</th>`).join("")}</tr>`;
+                    data[key].forEach(row => {
+                        table.innerHTML += "<tr>" + Object.values(row).map(val => `<td>${JSON.stringify(val)}</td>`).join("") + "</tr>";
+                    });
+                    db.appendChild(table);
+                }
+            });
+        }
+                // === Drag-to-resize for sidebar ===
+                const resizer = document.getElementById("resizer");
+        const sidebar = document.querySelector(".sidebar");
+        let isResizing = false;
+
+        resizer.addEventListener("mousedown", function (e) {
+            isResizing = true;
+            document.body.style.cursor = "col-resize";
+        });
+
+        document.addEventListener("mousemove", function (e) {
+            if (!isResizing) return;
+            const newWidth = e.clientX;
+            sidebar.style.width = newWidth + "px";
+        });
+
+        document.addEventListener("mouseup", function () {
+            isResizing = false;
+            document.body.style.cursor = "default";
+        });
+
+    </script>
+</body>
+</html>

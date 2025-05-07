@@ -1,0 +1,26 @@
+# Flask Web App
+flask
+flask-cors
+
+# MongoDB client
+pymongo
+
+# Redis (caching)
+redis
+
+# LLM + LangChain integration
+openai
+langchain
+langchain-openai
+langchain-community
+tiktoken
+
+# Prompt templating
+jinja2
+
+# Environment variable management
+python-dotenv
+
+# HTTP requests
+requests
+

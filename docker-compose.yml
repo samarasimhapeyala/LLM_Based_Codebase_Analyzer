@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  redis:
+    image: redis:latest
+    container_name: redis-container
+    ports:
+      - "6380:6379"  # Expose Redis on port 6380
+
+  flask-app:
+    build:
+      context: .
+    container_name: flask-app
+    ports:
+      - "8000:8000"  # Expose Flask on port 8000
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/
+      - REDIS_HOST=redis
+    depends_on:
+      - mongo
+      - redis
+
+  mongo:
+    image: mongo
+    container_name: mongo-container
+    ports:
+      - "27018:27017"  # Expose MongoDB on port 27017
+
