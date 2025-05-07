@@ -17,7 +17,7 @@ The entire process is containerized using Docker, and the results are stored in 
 
 ## Project Structure
 ```
-/codebase-analyzer
+/LLM_Based_Codebase_Analyzer
 ├── /app.py               # Main Flask application
 ├── /chunker.py           # Code chunking logic using Langchain
 ├── /code_loader.py       # Load code from provided path (local or GitHub)
@@ -33,5 +33,31 @@ The entire process is containerized using Docker, and the results are stored in 
 ├── /docker-compose.yml   # Docker Compose setup
 ├── /.env                 # Environment variables (e.g., API keys)
 ├── /requirements.txt     # Python dependencies
-└── /logs                 # Log files for tracking Flask app events
+├── /logs                  # Log files for tracking Flask app events
+└── /temp                 # To save the cloned repo files in temp folder
 ```
+
+## Setup & Installation
+
+### Prerequisites
+
+- Python 3.10 or higher
+- Docker and Docker Compose
+- MongoDB and Redis (Docker containers are used in this project)
+- OpenAI API key (for GPT-3.5 Turbo)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/samarasimhapeyala/LLM_Based_Codebase_Analyzer.git
+cd LLM_Based_Codebase_Analyzer
+```
+### 2. Install Dependencies
+
+To install the required Python packages, run the following command:
+
+```
+pip install -r requirements.txt
+```
+
+
